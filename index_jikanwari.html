@@ -1,0 +1,81 @@
+﻿<html>
+  <TITLE>QUICK TO THE ZOOM</TITLE>
+
+<H1 ALIGN=CENTER>～QUICK TO THE ZOOM～</H1>
+
+<BODY>
+
+<CENTER>
+<HR>
+      <!-- コピー対象要素とコピーボタン -->
+    <input id="copyTarget" type="text" value="21FI999_電大太郎" readonly>
+    <button onclick="copyToClipboard()">Copy text</button>
+
+    <!-- bodyタグ内の下部に以下を入力する -->
+    <script>
+        function copyToClipboard() {
+            // コピー対象をJavaScript上で変数として定義する
+            var copyTarget = document.getElementById("copyTarget");
+
+            // コピー対象のテキストを選択する
+            copyTarget.select();
+
+            // 選択しているテキストをクリップボードにコピーする
+            document.execCommand("Copy");
+
+            // コピーをお知らせする
+            alert("コピーできました！ : " + copyTarget.value);
+        }
+    </script>
+
+<h2>公開URLのため、ZOOMリンクは切っています!!</h2>
+
+<BODY BGCOLOR="#B3E4FA">
+
+ <table border="1" " width="1000" hight"400" >
+    <tr>
+      <th>月曜日</th>
+      <th>火曜日</th>
+      <th>水曜日</th>
+      <th>木曜日</th>
+      <th>金曜日</th>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">情報メディア</A></br>講師名</br></td>
+    <td></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">基礎物理学B</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">コンピュータリテラシー</A></br>講師名</br></td>
+    </tr>
+
+    <tr>
+      <td><a href="https://dendai.zoom.us/"target="_blank">企業と経営</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">線形代数</A></br>講師名</br></td>
+      <td></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">基礎化学</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">自然科学概論C</A></br>講師名</br></td>
+    </tr>
+
+    <tr>
+      <td><a href="https://dendai.zoom.us/"target="_blank">ワークショップ</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">総合英語</A></br>講師名</br></td>
+      <td></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">コンピュータプログラミング１</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">微積分学及び演習</A></br>講師名</br></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td><a href="https://dendai.zoom.us"target="_blank">微積分学及び演習</A></br>講師名</br></td>
+      <td>東京電機大学で学ぶ</br><a href="https://dendai.zoom.us/"target="_blank">ウェビナー</A></br>
+                            <a href="https://dendai.zoom.us/"target="_blank">クラス対話</A></br>講師名</br></td>
+      <td><a href="https://dendai.zoom.us/"target="_blank">コンピュータプログラミング１</A></br>講師名</br></td>
+      <td><a href="https://us02web.zoom.us/"target="_blank">口語英語</A></br>講師名</br></td>
+    </tr>
+ 
+ </table>
+
+</CENTER>
+</BODY>
+</html>
